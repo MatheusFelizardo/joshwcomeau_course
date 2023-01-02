@@ -12,8 +12,12 @@
 
 p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 16px;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
 }
 
 p strong {
@@ -21,14 +25,12 @@ p strong {
 }
 
 .intro-chunk {
-  margin-top: 96px;
-  padding: 0 24px 64px;
-  
+  padding: 96px 24px 64px;
 }
 
 .title {
   font-weight: 800;
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 48px;
 }
 
@@ -47,20 +49,17 @@ main {
   background: white;
   padding-top: 8px;
   border-bottom: 8px solid rgba(153, 153, 153, 1);
+  padding: 24px;
 }
 
 .card .indented-heading {
   background: #FFBF00;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 16px 32px;
-  margin-bottom: 24px;
-  margin-left: -8px;
-  max-width: 402px;
-  margin-right: 24px;
+  margin-bottom: 1rem;
+  margin-left: -32px;
+  margin-top: -16px;
+  max-width: fit-content;
   border-bottom: 8px solid rgba(204, 153, 0, 1);
-}
-
-.text-wrapper {
-  padding: 24px;
 }
